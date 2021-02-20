@@ -1,0 +1,32 @@
+.center{
+    width: 700px;
+}
+
+#question{
+    padding: 50px 40px 0;
+    height: 600px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ccc;
+    margin-top: 1em;
+}
+
+.users{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 800px;
+    width: 600px;
+}
+
+.users > div{
+    width: 150px;
+    transition-property: color;
+    transition-duration: 3000ms;
+    transition-delay: 2s;
+}
+
+.active-user{
+    color: blue;
+}

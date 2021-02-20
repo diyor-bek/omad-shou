@@ -1,0 +1,20 @@
+.right{
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+
+.right div{
+    font: bold 54px sans-serif;
+    padding-top: 1px;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+.unanswered{
+    color: #0f0;
+}
+
+.answered{
+    color: red;
+}
